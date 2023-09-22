@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.turkiz {
+    background-color: aqua;
+}
+
+.kek {
+    background-color: blue;
+}
+
+.sarga {
+    background-color: yellow;
+}
+
+.piros {
+    background-color: red;
+}
+
+.lila {
+    background-color: purple;
+}
+
+.fekete {
+    background-color: black;
+    height: 5vh;
+    width: 5vh;
+}
+
+.container {
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    padding-right: 10vw;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.column {
+    height: 80vh;
+    width: 40vw;
+}
+
+div.column > div:first-child, div.column > div:last-child {
+    height: 15%;
+    width: 100%;
+}
+
+div.row {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.row > div:nth-child(2){
+    width: 60%;
+    height: 100%;
+}
+
+div.row > div:first-child, div.row > div:last-child {
+    height: 100%;
+    width: 12%;
+}

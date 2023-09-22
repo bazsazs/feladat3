@@ -1,0 +1,39 @@
+* {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: purple;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+body {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-e {
+    height: 2em;
+    width: 100px;
+    background-color: aqua;
+    flex-direction: row;
+}
+.hero {
+    height: 100%;
+    width: 100%;
+}
+
+.alfa {
+    background-color: yellow;
+    height: 90vh;
+    width: 70%;
+}
+.beta {
+    background-color: green;
+    width: 40%;
+}
